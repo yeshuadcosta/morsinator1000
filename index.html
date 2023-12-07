@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Morsinator1000</title>
+
+        <link rel="stylesheet" href="assets/fonts/fonts.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <script src="scripts/script.js" async></script>
+        <script src="scripts/textEffect.js" defer></script>
+
+        <h1>MORSINATOR1000</h1>
+
+        <input type="radio" id="morse" name="language" value="1">
+        <label for="html">English to Morse Code</label><br />
+
+        <input type="radio" id="text" name="language" value="2">
+        <label for="text">Morse Code to English</label><br />
+
+        <div id="box">
+            <!--Mutli-Line Input-->
+            <div id="box1">
+                <span class="panel">Input</span>
+                <textarea id="textInput">Hello World!</textarea>
+            </div>
+
+            <img src="assets/images/smart_display_FILL0_wght400_GRAD0_opsz24.svg" id="button" draggable="false"/>
+
+            <!--Multi-Line Output-->
+            <div id="box2">
+                <span class="panel">Output</span>
+                <div id="textOutput">.... . .-.. .-.. --- / .-- --- .-. .-.. -.. -.-.--</div>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        Yeshua D'Costa, 2023
+    </footer>
+</html>

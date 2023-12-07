@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Quantico', sans-serif;
+    font-style: italic;
+    font-size: 4em;
+    color: #003060;
+}
+
+body {
+    background-color: #0E86D4;
+}
+
+@media (orientation: portrait) {
+    #box{
+        padding-top: 2em;
+        padding-bottom: 2em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #box1,
+    #box2{
+        width: 100%;
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        max-width: 80vw;
+        margin: auto;
+    }
+    
+    #box{
+        padding-top: 2em;
+        padding-bottom: 2em;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #box1,
+    #box2{
+        width: 45%;
+    }
+}
+
+/* These Boxes contain the panel and the text box below it */
+#box1,
+#box2{
+    display: flex;
+    flex-direction: column;
+}
+
+.panel {
+    font-family: 'Nova Square', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #003060;
+
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#button{
+    height: 45px;
+    
+    /* This aligns the button vertically along the centre between the other two boxes*/
+    align-self: center;
+}
+
+#textInput, #textOutput {
+    height: 50vh;
+    width: 100%;
+    border-radius: 5px;
+
+    background-color: #68BBE3;
+}
+
+label {
+    font-family: 'Manrope', sans-serif;
+    font-size: large;
+}
+
+#textInput {
+    font-family: 'Noto Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: larger;
+}
+
+#textOutput {
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+    border-radius: 0.5rem;
+
+    font-family: 'Quantico', sans-serif;
+    font-size: 1.5em;
+    color:#003060;
+    padding: 10px;
+    
+    background-color: #68BBE3;
+}
