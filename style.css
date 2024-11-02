@@ -103,10 +103,9 @@ h1 {
     background-color: #68bbe3;
 
     font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
+    font-size: 1em;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5em;
     font-variation-settings:
       "wdth" 100;
 }
@@ -115,11 +114,12 @@ footer {
     height: 10vh;
     width: 100%;
     border-radius: 0.5rem;
+    background-color: #68bbe3;
 
     font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 1.5em;
     color: #003060;
     padding: 10px;
-
-    background-color: #68bbe3;
 }
