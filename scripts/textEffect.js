@@ -4,9 +4,9 @@ const $alpha = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P",
 let head = document.querySelector("h1");
 head.addEventListener("mouseover",() => {effect(head);});
 window.addEventListener("load",() => {effect(head);});
+const original = head.innerText;
 
 function effect(text){
-    let original = text.innerText;
     let clone = "";
     let len = original.length;
     let key = len;
